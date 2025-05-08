@@ -15,6 +15,7 @@ test_add_book_in_favorites_add_one_book_added: Проверка добавлен
 test_add_book_in_favorites_add_missing_book_not_added: Негативная проверка добавления книги не из списка books_genre в избранное
 test_add_book_in_favorites_add_double_books_not_added: Негативная проверка повторного добавления книги в избранное
 test_delete_book_from_favorites_book_deleted: Проверка удаления книги из списка избранное
+
 test_delete_book_from_favorites_missing_book_not_deleted: Негативная проверка удаления книги не из списка избранное
 test_get_books_genre: проверка корректного возвращения словаря всех книг с их жанрами (пустой жанр обозначается пустой строкой)
 test_get_list_of_favorites_books: Проверка корректного возвращения списка избранных книг

@@ -2,10 +2,6 @@ import pytest
 from main import BooksCollector
 
 @pytest.fixture
-def collector():
-    return BooksCollector()
-
-@pytest.fixture
 def collection():
     collection = BooksCollector()
     return collection
@@ -26,3 +22,7 @@ def collection_five_books(collection):
         collect.set_book_genre(books[i], genre[i])
 
     return collect
+
+@pytest.fixture
+def collector():
+    return BooksCollector()

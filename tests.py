@@ -141,6 +141,7 @@ def test_get_book_genre_non_existing(collector):
         collector.set_book_genre("Книга 1", "Фантастика")
         assert collector.get_books_genre() == {"Книга 1": "Фантастика", "Книга 2": ""}
 
+
     def test_get_list_of_favorites_books(self):
         collector = BooksCollector()
         collector.add_new_book("Книга 1")
