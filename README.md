@@ -1,7 +1,7 @@
 Финальный проект 4 спринта на тему "Юнит-тестирование"
 
 Тестовые методы класса TestBooksCollector:
-test_add_new_book_adding_three_books_success: Проверка добавления трех книг в словарь books_genre
+test_add_new_book_adding_four_books_success: Проверка добавления четырех книг в словарь books_genre
 test_add_new_book_check_genre_success: Проверка установления жанра по умолчанию в добавленной книге
 test_add_new_book_add_incorrect_name_not_added: Негативная проверка добавления книг с именем 0 и больше 40 символов (параметризированный тест с двумя аргументами)
 test_add_new_book_add_double_books_not_added: Негативная проверка повторного добавления одинаковых книг
@@ -16,3 +16,5 @@ test_add_book_in_favorites_add_missing_book_not_added: Негативная пр
 test_add_book_in_favorites_add_double_books_not_added: Негативная проверка повторного добавления книги в избранное
 test_delete_book_from_favorites_book_deleted: Проверка удаления книги из списка избранное
 test_delete_book_from_favorites_missing_book_not_deleted: Негативная проверка удаления книги не из списка избранное
+test_get_books_genre: проверка корректного возвращения словаря всех книг с их жанрами (пустой жанр обозначается пустой строкой)
+test_get_list_of_favorites_books: Проверка корректного возвращения списка избранных книг
